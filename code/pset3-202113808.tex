@@ -101,30 +101,63 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  pdftitle={problem set 3},
+  pdftitle={Problem set 4},
   pdfauthor={Juan Kamilo Narvaez},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
-\title{problem set 3}
+\title{Problem set 4}
 \author{Juan Kamilo Narvaez}
-\date{8 de diciembre 2023}
+\date{08 de dicimbre 2023}
 
 \begin{document}
 \maketitle
 
-\hypertarget{problema-1-bucle-50}{%
-\section{Problema 1: Bucle (50\%)}\label{problema-1-bucle-50}}
-
-\hypertarget{lista-de-archivos-en-input}{%
-\subsection{1.1 Lista de archivos en
-input}\label{lista-de-archivos-en-input}}
+\hypertarget{configuracion-inicial}{%
+\section{Configuracion inicial}\label{configuracion-inicial}}
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{\# Coloca aquí tu código para crear la lista de archivos}
+\CommentTok{\#Limpiar el entorno}
+\FunctionTok{rm}\NormalTok{(}\AttributeTok{list=}\FunctionTok{ls}\NormalTok{()) }
+
+\DocumentationTok{\#\# instalar/llamar pacman}
+\FunctionTok{require}\NormalTok{(pacman)}
 \end{Highlighting}
 \end{Shaded}
 
+\begin{verbatim}
+## Loading required package: pacman
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{p\_load}\NormalTok{(rio,}
+\NormalTok{       skimr,}
+\NormalTok{       janitor,}
+\NormalTok{       data.table,}
+\NormalTok{       tidyverse,}
+\NormalTok{       ggplot2,}
+\NormalTok{       dplyr)}
+
+\CommentTok{\#Verificar el directorio}
+\FunctionTok{getwd}\NormalTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] "C:/Users/narva/OneDrive/Documentos/GitHub/pset3-202113808/code"
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{list.files}\NormalTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] "code.R"              "pset3-202113808.log" "pset3-202113808.pdf"
+## [4] "pset3-202113808.Rmd" "pset3-202113808.tex"
+\end{verbatim}
 
 \end{document}

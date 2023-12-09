@@ -1,0 +1,26 @@
+---
+title: "Problem set 4"
+author: "Juan Kamilo Narvaez"
+date: "08 de dicimbre 2023"
+output: pdf_document
+---
+# Configuracion inicial
+```{r setup, echo=T}
+#Limpiar el entorno
+rm(list=ls()) 
+
+## instalar/llamar pacman
+require(pacman)
+p_load(rio,
+       skimr,
+       janitor,
+       data.table,
+       tidyverse,
+       ggplot2,
+       dplyr)
+
+#Verificar el directorio
+getwd()
+list.files()
+```
+
