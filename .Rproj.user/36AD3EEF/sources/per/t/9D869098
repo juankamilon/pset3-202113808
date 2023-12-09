@@ -3,7 +3,7 @@
     "path": "~/GitHub/pset3-202113808/code/code.R",
     "project_path": "code/code.R",
     "type": "r_source",
-    "hash": "1123382765",
+    "hash": "3790856456",
     "contents": "",
     "dirty": false,
     "created": 1702066144890.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "24,0",
-        "scrollLine": "15"
+        "cursorPosition": "106,56",
+        "scrollLine": "89"
     },
     "folds": "",
-    "lastKnownWriteTime": 1702077428,
+    "lastKnownWriteTime": 1702087674,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1702077428689,
+    "last_content_update": 1702087674517,
     "read_only": false,
     "read_only_alternatives": []
 }

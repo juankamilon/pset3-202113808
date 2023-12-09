@@ -1,0 +1,5 @@
+"0","lista_resto[[36]] <- NULL #elimina el data frame 36 no cumple con los requerimientos"
+"0","df_rest <- rbindlist(l=lista_resto , use.names=T , fill=T)"
+"0","## exporta"
+"0","export(df_rest,""output/cg.rds"")"
+"0",""

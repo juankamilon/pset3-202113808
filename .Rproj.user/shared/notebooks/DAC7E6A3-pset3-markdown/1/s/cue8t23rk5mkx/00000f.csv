@@ -1,0 +1,1 @@
+"0","rutas <- list.files(""input/"" , recursive=T , full.names=T)"
